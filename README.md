@@ -1,7 +1,6 @@
 # MinimarketApp
 
-
-F fffffffff
+App de una Minimarket para dispositivos móviles Android.
 
 
 
