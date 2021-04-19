@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">MinimarketApp</string>
     <string name="tvlogo">Minimarket Idat</string>
+    <string name="tvtitulologin">MINIMARKET LOGIN</string>
+    <string name="mnk_button_cancelar">Cancelar</string>
+    <string name="mnk_button_next">Siguiente</string>
+    <string name="mnk_hint_usuario">Usuario</string>
+    <string name="mnk_hint_contrasena">Contraseña</string>
 </resources>
