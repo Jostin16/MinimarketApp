@@ -76,6 +76,7 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"
                 android:layout_alignParentRight="true"
+                android:onClick="nextButton"
                 android:text="@string/mnk_button_next" />
 
             <com.google.android.material.button.MaterialButton

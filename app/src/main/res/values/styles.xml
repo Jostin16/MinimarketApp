@@ -13,6 +13,11 @@
         <item name="android:background">?attr/colorAccent</item>
         <item name="android:theme">@style/Theme.Minimarket</item>
         <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+        <item name="titleTextAppearance">@style/TextAppearance.Minimarket.Toolbar</item>
+    </style>
+
+    <style name="TextAppearance.Minimarket.Toolbar" parent="TextAppearance.MaterialComponents.Button">
+        <item name="android:textSize">16sp</item>
     </style>
 
     <style name="Widget.Minimarket.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
