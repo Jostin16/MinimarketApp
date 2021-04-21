@@ -11,9 +11,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MinimarketApp">
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-        <activity android:name=".Datos_personales" />
+        <activity android:name=".Datos_personales"></activity>
         <activity android:name=".PantallaInicioActivity"></activity>
-        <activity android:name=".LoginActivity" />
+        <activity android:name=".LoginActivity"></activity>
         <activity
             android:name=".MainActivity"
             android:theme="@android:style/Theme.DeviceDefault.NoActionBar.Fullscreen">
@@ -22,7 +22,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Carrito" /></activity>
+        <activity android:name=".Carrito"></activity>
 
         <activity android:name=".ListadoActivity"></activity>
 
