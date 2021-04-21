@@ -8,6 +8,9 @@
         android:id="@+id/imageView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="#94E996"
+        android:baselineAlignBottom="false"
+        android:cropToPadding="true"
         android:src="@drawable/splash" />
 
     <ProgressBar

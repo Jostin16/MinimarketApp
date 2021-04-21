@@ -35,4 +35,9 @@
     <string name="respuesta">Dejar respuesta</string>
     <string name="enviar">Enviar</string>
     <string name="escribe_reseñas">Escribe tus reseñas...</string>
+    <string name="mnk_filter_title">Filtrar</string>
+    <string name="mnk_search_title">Buscar</string>
+    <string name="imgFondo">imagenDeFondo</string>
+    <string name="mnk_producto_titulo">Titulo</string>
+    <string name="mnk_product_description">Descripcion</string>
 </resources>

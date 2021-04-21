@@ -9,6 +9,12 @@
         <item name="android:textColorPrimary">@color/textColorPrimary</item>
     </style>
 
+    <style name="Widget.Minimarket.Toolbar" parent="Widget.AppCompat.Toolbar">
+        <item name="android:background">?attr/colorAccent</item>
+        <item name="android:theme">@style/Theme.Minimarket</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+    </style>
+
     <style name="Widget.Minimarket.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
         <item name="hintTextAppearance">@style/TextAppearance.Minimarket.TextInputLayout.HintText</item>
         <item name="hintTextColor">@color/textColorPrimary</item>
