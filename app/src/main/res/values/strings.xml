@@ -1,3 +1,41 @@
 <resources>
+    <string name="textitulo">Datos Personales</string>
     <string name="app_name">MinimarketApp</string>
+    <string name="texNombre">Nombre:</string>
+    <string name="texApellido">Apellido:</string>
+    <string name="texgmail">Gmail:</string>
+    <string name="textelefono">Telefono:</string>
+    <string name="textdireccion">Direccion:</string>
+    <string name="texcontraseña">Contraseña:</string>
+    <string name="texNombreTXT">--</string>
+    <string name="texApellidoTXT">--</string>
+    <string name="texgmailTXT">--</string>
+    <string name="textelefonoTXT">--</string>
+    <string name="textdireccionTXT">--</string>
+    <string name="texcontraseñaTXT">--</string>
+    <string name="textcarrito">Carrito de Compra</string>
+    <string name="texgenero">Genero:</string>
+    <string name="texProducto">Producto:</string>
+    <string name="texProductoTXT">Papa</string>
+    <string name="texPrecio">Precio:</string>
+    <string name="texPrecioTXT">2.50</string>
+    <string name="texPrecioTXT1">2.00</string>
+    <string name="texDescripcion">Descripcion:</string>
+    <string name="texDescripcionTXT">Amarilla</string>
+    <string name="btnaceptar">Actualizar Datos</string>
+    <string name="btncancelar">Cambiar Contraseña</string>
+    <string name="btnrealizarcompra">Realizar Compra</string>
+    <string name="btncancelarcompra">Cancelar Compra</string>
+    <string name="btnmenos">-</string>
+    <string name="btnmas">+</string>
+    <string name="btnhombre">Hombre</string>
+    <string name="btnmujer">Mujer</string>
+    <string name="btnotro">Otro</string>
+    <string name="rbhombre">Hombre</string>
+    <string name="rbmujer">Mujer</string>
+    <string name="rbotro">Otro</string>
+    <string name="btnclick"><![CDATA[<-]]></string>
+    <string name="btnClik" />
+    <string name="btnflecha">flecha</string>
+
 </resources>
