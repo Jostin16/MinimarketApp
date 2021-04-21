@@ -19,7 +19,7 @@ public class MainActivity extends Activity {
         TimerTask task = new TimerTask() {
             @Override
             public void run() {
-                Intent intent = new Intent(MainActivity.this,LoginActivity.class);
+                Intent intent = new Intent(MainActivity.this,PantallaInicioActivity.class);
                 startActivity(intent); //para que se pase a la otra ventana
                 finish(); //que se muestre solo al abrir la app
             }

@@ -86,7 +86,8 @@
                 android:layout_marginRight="12dp"
                 android:layout_toStartOf="@id/next_button"
                 android:layout_toLeftOf="@id/next_button"
-                android:text="@string/mnk_button_cancelar" />
+                android:text="@string/mnk_button_cancelar"
+                app:iconTint="#FFFFFF" />
 
         </RelativeLayout>
 
