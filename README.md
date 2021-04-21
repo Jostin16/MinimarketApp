@@ -1,5 +1,8 @@
 # MinimarketApp
 
-Hola mundo
+App de una Minimarket para dispositivos móviles Android.
+
+
+
 
 
