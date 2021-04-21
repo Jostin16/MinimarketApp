@@ -10,6 +10,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MinimarketApp">
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".Datos_personales" />
         <activity android:name=".PantallaInicioActivity"></activity>
         <activity android:name=".LoginActivity" />
         <activity
@@ -19,7 +21,8 @@
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-         </activity>
+        </activity>
+        <activity android:name=".Carrito" /></activity>
 
         <activity android:name=".ListadoActivity"></activity>
 
