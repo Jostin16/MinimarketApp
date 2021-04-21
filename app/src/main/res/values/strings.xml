@@ -6,4 +6,9 @@
     <string name="mnk_button_next">Siguiente</string>
     <string name="mnk_hint_usuario">Usuario</string>
     <string name="mnk_hint_contrasena">Contraseña</string>
+    <string name="mnk_filter_title">Filtrar</string>
+    <string name="mnk_search_title">Buscar</string>
+    <string name="imgFondo">imagenDeFondo</string>
+    <string name="mnk_producto_titulo">Titulo</string>
+    <string name="mnk_product_description">Descripcion</string>
 </resources>
