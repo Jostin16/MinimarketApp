@@ -25,4 +25,9 @@ public class PantallaInicioActivity extends AppCompatActivity {
         Intent screenLogin = new Intent(PantallaInicioActivity.this,LoginActivity.class);
         startActivity(screenLogin);
     }
+
+    public void registerButton(View view){
+        Intent screenRegistro = new Intent(PantallaInicioActivity.this,RegistroActivity.class);
+        startActivity(screenRegistro);
+    }
 }
