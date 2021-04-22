@@ -102,5 +102,6 @@
     <string name="mnk_product_description">Descripcion</string>
     <string name="valvermas">Ver</string>
     <string name="btnircarrito">Ir al carrito</string>
+    <string name="valcomentario">Comentarios</string>
 
 </resources>

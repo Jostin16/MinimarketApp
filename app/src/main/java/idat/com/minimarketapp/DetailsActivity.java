@@ -35,4 +35,9 @@ public class DetailsActivity extends AppCompatActivity {
         Intent screenCarrito = new Intent(DetailsActivity.this,Carrito.class);
         startActivity(screenCarrito);
     }
+
+    public void comentarioButton(View view){
+        Intent screenComentario = new Intent(DetailsActivity.this,ComentarioActivity.class);
+        startActivity(screenComentario);
+    }
 }
