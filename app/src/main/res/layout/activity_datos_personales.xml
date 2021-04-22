@@ -12,26 +12,18 @@
         android:id="@+id/appBarLayout"
         android:layout_width="match_parent"
         android:layout_height="40dp"
-        android:background="#8BC34A"
+        android:background="@color/teal_700"
         tools:ignore="MissingConstraints">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <Button
-                android:id="@+id/btnClik"
-                android:layout_width="20dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:text="@string/btnClik"
-                app:backgroundTint="#8BC34A"
-                app:icon="@drawable/abc_vector_test" />
-
             <TextView
                 android:id="@+id/textView"
-                android:layout_width="270dp"
+                android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:gravity="center"
                 android:text="Mis datos Personales"
                 android:textColor="@color/white"
                 android:textSize="24sp"
@@ -76,8 +68,8 @@
 
     <LinearLayout
         android:id="@+id/linearLayout"
-        android:layout_width="408dp"
-        android:layout_height="322dp"
+        android:layout_width="398dp"
+        android:layout_height="379dp"
         android:layout_marginTop="270dp"
         android:orientation="vertical"
         android:padding="8dp"
@@ -101,16 +93,16 @@
                 android:text="@string/texNombre"
                 android:textSize="20sp" />
 
-            <TextView
-                android:layout_width="wrap_content"
+            <EditText
+                android:id="@+id/id_nombre"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="5dp"
                 android:layout_marginLeft="5dp"
                 android:layout_marginTop="16dp"
-                android:text="@string/texNombreTXT"
+                android:text="@string/editnombre"
                 android:textSize="20sp" />
         </androidx.appcompat.widget.LinearLayoutCompat>
-
 
         <androidx.appcompat.widget.LinearLayoutCompat
             android:layout_width="392dp"
@@ -126,13 +118,14 @@
                 android:text="@string/texApellido"
                 android:textSize="20sp" />
 
-            <TextView
-                android:layout_width="wrap_content"
+            <EditText
+                android:id="@+id/id_apellido"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="5dp"
                 android:layout_marginLeft="5dp"
                 android:layout_marginTop="16dp"
-                android:text="@string/texApellidoTXT"
+                android:text="@string/editapellido"
                 android:textSize="20sp" />
         </androidx.appcompat.widget.LinearLayoutCompat>
 
@@ -150,13 +143,15 @@
                 android:text="@string/textelefono"
                 android:textSize="20sp" />
 
-            <TextView
-                android:layout_width="wrap_content"
+            <EditText
+                android:id="@+id/id_telefono"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="5dp"
                 android:layout_marginLeft="5dp"
                 android:layout_marginTop="16dp"
-                android:text="@string/textelefonoTXT"
+                android:inputType="number"
+                android:text="@string/edittelefono"
                 android:textSize="20sp" />
 
         </androidx.appcompat.widget.LinearLayoutCompat>
@@ -175,13 +170,15 @@
                 android:text="@string/texcontraseña"
                 android:textSize="20sp" />
 
-            <TextView
-                android:layout_width="wrap_content"
+            <EditText
+                android:id="@+id/id_contrasena"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="5dp"
                 android:layout_marginLeft="5dp"
                 android:layout_marginTop="16dp"
-                android:text="@string/texcontraseñaTXT"
+                android:inputType="textPassword"
+                android:text="@string/editcontrasena"
                 android:textSize="20sp" />
         </androidx.appcompat.widget.LinearLayoutCompat>
 
@@ -199,13 +196,14 @@
                 android:text="@string/textdireccion"
                 android:textSize="20sp" />
 
-            <TextView
-                android:layout_width="wrap_content"
+            <EditText
+                android:id="@+id/id_direccion"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="5dp"
                 android:layout_marginLeft="5dp"
                 android:layout_marginTop="16dp"
-                android:text="@string/textdireccionTXT"
+                android:text="@string/editdireccion"
                 android:textSize="20sp" />
 
 
@@ -228,9 +226,9 @@
 
             <RadioGroup
                 android:id="@+id/rggenero"
-                android:layout_marginTop="8dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
                 android:orientation="horizontal">
 
                 <RadioButton
@@ -272,6 +270,7 @@
                 android:textSize="20sp" />
 
             <TextView
+                android:id="@+id/id_correo"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="5dp"
@@ -291,6 +290,7 @@
         android:layout_gravity="center"
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
         android:text="@string/btnaceptar"
         app:backgroundTint="@android:color/holo_green_light"
         app:layout_constraintStart_toStartOf="parent"
@@ -301,6 +301,7 @@
         android:layout_width="145dp"
         android:layout_height="57dp"
         android:layout_gravity="center"
+        android:layout_marginTop="4dp"
         android:layout_marginEnd="32dp"
         android:layout_marginRight="32dp"
         android:text="@string/btncancelar"

@@ -36,7 +36,6 @@ public class Carrito extends AppCompatActivity {
         cantidad = findViewById(R.id.cantidad);
         flecha = findViewById(R.id.flecha);
         btnmas.setOnClickListener(new View.OnClickListener() {
-
             @Override
             public void onClick(View view) {
                 String _cantidad = cantidad.getText().toString();
@@ -56,28 +55,22 @@ public class Carrito extends AppCompatActivity {
         cantidad.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {
-
             }
-
             @Override
             public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
-
             }
-
             @Override
             public void afterTextChanged(Editable editable) {
                 String _cantidad = cantidad.getText().toString();
                 int Incremento = Integer.parseInt(_cantidad);
-
-
             }
-
-
         });
+
+        getSupportActionBar().hide();
     }
 
    public void regresar(View view){
-       Intent intent=new Intent(Carrito.this,Datos_personales.class);
+       Intent intent=new Intent(Carrito.this,ListadoActivity.class);
        startActivity(intent);
    }
 

@@ -51,4 +51,6 @@ public class ListadoActivity  extends AppCompatActivity {
         recyclerView.addItemDecoration(new ProductGridItemDecoration(largePadding,smallPadding));
 
     }
+
+
 }

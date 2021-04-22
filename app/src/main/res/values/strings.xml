@@ -1,7 +1,6 @@
 <resources>
     <string name="textitulo">Datos Personales</string>
     <string name="app_name">MinimarketApp</string>
-
     <string name="valtitulo">Registro Clientes</string>
     <string name="valetnombre">Ingrese su nombre</string>
     <string name="valetapellido">Ingrese su apellido</string>
@@ -12,13 +11,17 @@
     <string name="valbtnRegistrar">Registrarse</string>
     <string name="etCorreo">Ingrese su Correo Electronico</string>
     <string name="etCelular">Ingrese su numero de Celular</string>
-    <string name="etFechaNacimiento">Ingrese su Fecha de Nacimiento</string>
-    <string name="etContraseña">Ingrese su Contraseña</string>
+    <string name="etDireccion">Ingrese su Dirección</string>
+    <string name="etContrasena">Ingrese su Contraseña</string>
     <string name="etNombre">Ingrese su Nombre</string>
-
+    <string name="editdireccion">Los carmenes 123</string>
+    <string name="editnombre">Mariano Valentin</string>
+    <string name="editapellido">Velasco Alvarado</string>
+    <string name="edittelefono">923649802</string>
+    <string name="editcontrasena">contra123</string>
     <string name="texNombre">Nombre:</string>
     <string name="texApellido">Apellido:</string>
-    <string name="texgmail">Gmail:</string>
+    <string name="texgmail">Correo:</string>
     <string name="textelefono">Telefono:</string>
     <string name="textdireccion">Direccion:</string>
     <string name="texcontraseña">Contraseña:</string>
@@ -97,5 +100,7 @@
     <string name="imgFondo">imagenDeFondo</string>
     <string name="mnk_producto_titulo">Titulo</string>
     <string name="mnk_product_description">Descripcion</string>
+    <string name="valvermas">Ver</string>
+    <string name="btnircarrito">Ir al carrito</string>
 
 </resources>
