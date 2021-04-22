@@ -33,6 +33,8 @@ public class RegistroActivity extends AppCompatActivity {
             }
         });
 
+        getSupportActionBar().hide();
+
     }
 
 }
