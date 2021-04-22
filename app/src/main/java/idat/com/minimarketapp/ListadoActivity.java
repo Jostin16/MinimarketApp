@@ -44,7 +44,11 @@ public class ListadoActivity  extends AppCompatActivity {
         ProductosAdapter productosAdapter = new ProductosAdapter(productos,this);
         RecyclerView recyclerView = findViewById(R.id.listReyclerView);
         recyclerView.setHasFixedSize(true);
-        recyclerView.setLayoutManager(new GridLayoutManager(this,2));
+        recyclerView.setLayoutManager(new GridLayoutManager(this,2,GridLayoutManager.VERTICAL,false));
         recyclerView.setAdapter(productosAdapter);
+        int largePadding = 16;
+        int smallPadding = 4;
+        recyclerView.addItemDecoration(new ProductGridItemDecoration(largePadding,smallPadding));
+
     }
 }

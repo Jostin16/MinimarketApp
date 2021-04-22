@@ -14,68 +14,38 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <androidx.appcompat.widget.Toolbar
-            android:id="@+id/toolbar"
+        <com.google.android.material.appbar.AppBarLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/teal_700"
-            android:minHeight="?attr/actionBarSize"
-            android:padding="20dp"
-            android:theme="?attr/actionBarTheme" />
+            app:elevation="0dp">
 
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignTop="@+id/imageMenu"
-            android:layout_marginLeft="10dp"
-            android:layout_toRightOf="@+id/imageMenu"
-            android:fontFamily="sans-serif-smallcaps"
-            android:text="Minimarket"
-            android:textColor="@color/ic_launcher_background"
-            android:textSize="24dp"
-            android:textStyle="bold" />
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                style="@style/Widget.Minimarket.Toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@color/teal_700"
+                app:navigationIcon="@drawable/shr_menu"
+                app:title="@string/app_name" />
 
-        <ImageView
-            android:id="@+id/imageMenu"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentTop="true"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="10dp"
-            app:srcCompat="@drawable/shr_menu" />
+        </com.google.android.material.appbar.AppBarLayout>
 
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="56dp"
+            android:background="@color/white"
+            android:elevation="8dp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
-        <ImageView
-            android:id="@+id/imageLupa"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_alignTop="@+id/imageMenu"
-            android:layout_marginRight="10dp"
-            android:layout_toLeftOf="@+id/imageFiltro"
-            app:srcCompat="@drawable/shr_search" />
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/listReyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
 
+        </androidx.core.widget.NestedScrollView>
 
-        <ImageView
-            android:id="@+id/imageFiltro"
-            android:layout_width="24dp"
-            android:layout_height="wrap_content"
-            android:layout_alignTop="@+id/imageMenu"
-            android:layout_alignParentRight="true"
-            android:layout_marginRight="10dp"
-            app:srcCompat="@drawable/shr_filter" />
     </RelativeLayout>
-
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/listReyclerView"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/LinearBarra" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>
