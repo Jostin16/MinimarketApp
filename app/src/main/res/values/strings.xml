@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">MinimarketApp</string>
+    <string name="valtitulo">Registro Clientes</string>
+    <string name="valetnombre">Ingrese su nombre</string>
+    <string name="valetapellido">Ingrese su apellido</string>
+    <string name="valtemail">Ingrese su Correo Electronico</string>
+    <string name="valetTelefono">Ingrese su numero de Celular</string>
+    <string name="valetFechaNacimiento">Ingrese su fecha de Nacimiento</string>
+    <string name="valetContraseña">Ingrese su nueva Contraseña</string>
+    <string name="valbtnRegistrar">Registrarse</string>
+    <string name="etCorreo">Ingrese su Correo Electronico</string>
+    <string name="etCelular">Ingrese su numero de Celular</string>
+    <string name="etFechaNacimiento">Ingrese su Fecha de Nacimiento</string>
+    <string name="etContraseña">Ingrese su Contraseña</string>
+    <string name="etNombre">Ingrese su Nombre</string>
 </resources>
